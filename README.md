@@ -6,7 +6,7 @@
 
 O projeto **"Tipos de Robôs e Suas Aplicações"** é um site desenvolvido para explorar e apresentar informações sobre diferentes tipos de robôs e suas aplicações no mundo real. O objetivo é educar e engajar os visitantes ao fornecer uma plataforma interativa para aprender sobre robótica. O site inclui seções dedicadas a tipos de robôs, artigos informativos e uma funcionalidade de pesquisa.
 
-Você pode visitar o site em [Tipos de Robôs e Suas Aplicações](https://mundo-robotico.vercel.app/){:target="_blank"}.
+Você pode visitar o site em <a href="https://mundo-robotico.vercel.app/" target="_blank">Tipos de Robôs e Suas Aplicações</a>.
 
 ## 🔍 Funcionalidades
 

@@ -13,7 +13,6 @@ Você pode visitar o site em <a href="https://mundo-robotico.vercel.app/" target
 - **Pesquisa:** Permite que os usuários pesquisem artigos por título, descrição ou tags para encontrar informações específicas.
 - **Tipos de Robôs:** Exibe cartões com detalhes sobre vários tipos de robôs, incluindo imagens e descrições.
 - **Artigos:** Lista de artigos relacionados à robótica, com resumos e links para mais detalhes.
-- **Sobre o Projeto:** Fornece informações sobre o propósito do projeto e o desenvolvedor.
 
 ## 💻 Tecnologias Utilizadas
 

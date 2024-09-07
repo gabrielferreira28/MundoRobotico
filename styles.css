@@ -1,0 +1,353 @@
+/* Reset básico: Remove margens, espaçamentos e estilos de lista padrão */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background-color: #f4f4f4; /* Cor de fundo cinza claro */
+    color: #333; /* Cor do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+}
+
+/* Cabeçalho */
+header {
+    background: #007BFF; /* Fundo azul */
+    color: white; /* Texto branco */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    display: grid;
+    place-items: center;
+}
+
+/* Menu de navegação */
+nav ul {
+    display: flex; /* Flexbox para alinhamento horizontal */
+    justify-content: center; /* Centraliza itens */
+    margin-bottom: 20px; /* Espaço abaixo do menu */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaçamento entre itens */
+}
+
+nav ul li a {
+    color: white; /* Links em branco */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold; /* Negrito */
+}
+
+/* Seção Inicial */
+.inicio {
+    max-width: 600px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 50px 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza texto */
+}
+
+.inicio h1 {
+    font-size: 2.5em; /* Tamanho do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.inicio p {
+    font-size: 1.2em; /* Tamanho do texto */
+    margin-bottom: 30px; /* Espaço abaixo do parágrafo */
+}
+
+/* Botão */
+.btn {
+    display: inline-block; /* Exibe como bloco inline */
+    padding: 10px 20px; /* Espaçamento interno */
+    background: #FF5722; /* Fundo laranja */
+    color: white; /* Texto branco */
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background 0.3s; /* Transição suave */
+}
+
+.btn:hover {
+    background: #E64A19; /* Fundo mais escuro ao passar o mouse */
+}
+
+/* Seção Tipos de Robôs */
+.tipos-robos {
+    padding: 50px 20px; /* Espaçamento interno */
+    background-color: #f4f4f4; /* Fundo cinza claro */
+    text-align: center; /* Centraliza texto */
+}
+
+.tipos-robos h2 {
+    font-size: 2em; /* Tamanho do título */
+    margin-bottom: 30px; /* Espaço abaixo do título */
+    color: #333; /* Cor do texto */
+}
+
+/* Container de cartões */
+.container {
+    display: flex; /* Flexbox para organizar cartões */
+    flex-wrap: wrap; /* Permite quebras de linha */
+    justify-content: center; /* Centraliza cartões */
+    gap: 30px; /* Espaçamento entre cartões */
+}
+
+/* Cartões */
+.card {
+    background-color: white; /* Fundo branco */
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    width: 300px; /* Largura fixa */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.3s; /* Transição suave */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efeito ao passar o mouse */
+}
+
+.card img {
+    max-width: 100%; /* Largura máxima da imagem */
+    height: auto; /* Altura proporcional */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 15px; /* Espaço abaixo da imagem */
+}
+
+.card h3 {
+    font-size: 1.5em; /* Tamanho do título */
+    color: #007BFF; /* Cor azul */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+.card p {
+    font-size: 1em; /* Tamanho do texto */
+    color: #666; /* Cor do texto */
+}
+
+/* Seção Criação */
+.criacao {
+    background-color: #007BFF; /* Fundo azul */
+    color: white; /* Texto branco */
+    padding: 60px 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza texto */
+}
+
+.criacao h2 {
+    font-size: 2em; /* Tamanho do título */
+    margin-bottom: 30px; /* Espaço abaixo do título */
+    color: #FF5722; /* Cor laranja */
+}
+
+/* Informações do Autor */
+.autor-info h1 {
+    font-size: 2em; /* Tamanho do nome */
+    margin: 20px 0; /* Espaçamento vertical */
+    color: #FFFFFF; /* Cor branca */
+    font-weight: bold; /* Negrito */
+}
+
+.autor-info h3 {
+    font-size: 1.8em; /* Tamanho do subtítulo */
+    color: #FFEB3B; /* Cor amarela */
+    margin-bottom: 10px; /* Espaço abaixo do subtítulo */
+}
+
+.autor-info p {
+    font-size: 1.2em; /* Tamanho do parágrafo */
+    margin: 20px 0; /* Espaçamento vertical */
+    color: #E1E1E1; /* Cor de texto */
+}
+
+.autor-info p strong {
+    color: #FFEB3B; /* Cor de destaque para o texto em negrito */
+}
+
+/* Seção Artigos */
+#artigos {
+    padding: 50px 20px;
+    background-color: #fff; /* Cor de fundo branca */
+    text-align: center;
+}
+
+.artigos {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebras de linha */
+    justify-content: center; /* Centraliza os itens */
+    gap: 20px; /* Espaçamento entre artigos */
+}
+
+.artigo {
+    background-color: #f4f4f4; /* Cor de fundo dos artigos */
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px;
+    width: calc(33.333% - 20px); /* Largura dos artigos */
+    box-sizing: border-box; /* Inclui padding e borda na largura */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.artigo img {
+    max-width: 100%; /* Largura máxima da imagem */
+    height: auto; /* Altura proporcional */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 10px; /* Espaço abaixo da imagem */
+}
+
+.artigo h3 {
+    font-size: 1.8em; /* Tamanho do título */
+    color: #007BFF; /* Cor azul */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+.artigo p {
+    font-size: 1em; /* Tamanho do texto */
+    color: #666; /* Cor do texto */
+    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+}
+
+.btn-leia-mais {
+    display: inline-block; /* Exibe como bloco inline */
+    padding: 10px 20px; /* Espaçamento interno */
+    background: #FF5722; /* Fundo laranja */
+    color: white; /* Texto branco */
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background 0.3s; /* Transição suave */
+}
+
+.btn-leia-mais:hover {
+    background: #E64A19; /* Fundo mais escuro ao passar o mouse */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .artigo {
+        width: calc(50% - 20px); /* Duas colunas em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .artigo {
+        width: 100%; /* Uma coluna em telas muito pequenas */
+    }
+}
+
+/* Menu de navegação */
+nav ul li a.active {
+    border-bottom: 2px solid #FF5722; /* Linha de destaque para o item ativo */
+}
+
+/* Barra de pesquisa */
+.campo-pesquisa input[type="text"] {
+    padding: 0.75rem;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+}
+
+.campo-pesquisa button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background-color: #0056b3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.campo-pesquisa button:hover {
+    background-color: #004494;
+}
+
+
+/* EVENTOS */
+
+#eventos-webinars {
+    background-color: #f4f4f4; /* Altere para combinar com o tema do seu site */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+#eventos-webinars h2 {
+    text-align: center;
+    color: #333;
+}
+
+.eventos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.evento {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.evento h3 {
+    margin-top: 0;
+}
+
+.evento p {
+    margin: 5px 0;
+}
+
+.evento a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.evento a:hover {
+    text-decoration: underline;
+}
+
+/* INOVACAO E TENDENCIAS */
+#inovacoes-tendencias {
+    padding: 30px;
+    background-color: #f5f5f5; /* Fundo claro para contraste suave */
+    color: #333; /* Texto escuro para leitura fácil */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve para profundidade */
+    margin: 20px 0;
+    border: 1px solid #ddd; /* Borda sutil para contorno */
+}
+
+#inovacoes-tendencias h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007bff; /* Azul mais suave para destaque */
+}
+
+#inovacoes-tendencias p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.tendencia {
+    background-color: #fff; /* Fundo branco para as tendências */
+    border-left: 4px solid #007bff; /* Barra lateral azul suave para destaque */
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.tendencia h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    color: #333; /* Texto escuro para os títulos */
+}
+
+.tendencia p {
+    font-size: 1em;
+    color: #666; /* Texto cinza médio para leitura confortável */
+}
+

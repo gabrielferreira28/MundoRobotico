@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore diferentes tipos de robôs e suas aplicações no mundo real. Descubra artigos e informações sobre robótica.">
+    <title>Tipos de Robôs e Suas Aplicações</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#tipos">Tipos de Robôs</a></li>
+                <li><a href="#inovacoes-tendencias">Inovações e Tendências</a></li>
+                <li><a href="#artigos">Artigos</a></li>
+                <li><a href="#eventos-webinars">Eventos e Webinars</a></li>
+                <li><a href="#criacao">Criação</a></li>
+            </ul>
+        </nav>
+        <form class="campo-pesquisa">
+            <input type="text" id="campo-pesquisa" placeholder="Pesquisar...">
+            <button type="button" onclick="pesquisar()">Pesquisar</button>
+        </form>
+        <div class="resultados-pesquisa"></div>
+        <div id="inicio" class="inicio">
+            <h1>Bem-vindo ao Mundo dos Robôs!</h1>
+            <p>Explore os diferentes tipos de robôs e suas incríveis aplicações no mundo real.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="tipos" class="tipos-robos">
+            <h2>Tipos de Robôs</h2>
+            <div class="container"></div>
+        </section>
+
+        <section id="inovacoes-tendencias">
+            <h2>Inovações e Tendências</h2>
+        </section>
+    
+        <section id="artigos">
+            <h2>Artigos</h2>
+            <div class="artigos"></div>
+        </section>
+
+        <section id="eventos-webinars">
+            <h2>Eventos e Webinars</h2>
+            <div class="eventos-container"></div>
+        </section>
+        
+        <section id="criacao" class="criacao">
+            <div class="container">
+                <h2></h2>
+                <div class="autor-info" data-aos="zoom-in">
+                    <h3>Projeto desenvolvido por</h3>
+                    <h1>Gabriel Ferreira</h1>
+                    <p>Este site foi criado como parte do projeto <strong>Alura+Gemini</strong>, explorando o fascinante mundo da robótica e suas aplicações.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tipos de Robôs e Suas Aplicações. Todos os direitos reservados.</p>
+        <p>Entre em contato pelo email: gabriel.devwork@gmail.com</p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

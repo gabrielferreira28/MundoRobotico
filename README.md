@@ -36,11 +36,11 @@ O projeto pretende evoluir com a adição de novas funcionalidades e conteúdo, 
 
 ## 🙏 Agradecimentos
 
-- **Ao Guilherme Lima** pela contribuição e apoio. 🌟
-- **À Rafaella Ballerini** pela orientação e feedback. 👏
-- **Ao Luciano Martins** pelo suporte técnico e conselhos. 🛠️
-- **À Alura** por fornecer o espaço para este projeto. 🎓
-- **Ao Google** por fornecer o serviço de geração de prompts de pesquisas com o Google Gemini. 🧠
+- **Ao [@Guilherme Lima](https://github.com/guilherme-lima)** pela contribuição e apoio. 🌟
+- **À [@Rafaella Ballerini](https://github.com/rafaella-ballerini)** pela orientação e feedback. 👏
+- **Ao [@Luciano Martins](https://github.com/luciano-martins)** pelo suporte técnico e conselhos. 🛠️
+- **À [@Alura](https://github.com/alura)** por fornecer o espaço para este projeto. 🎓
+- **Ao [@Google](https://github.com/google)** por fornecer o serviço de geração de prompts de pesquisas com o Google Gemini. 🧠
 
 ---
 
